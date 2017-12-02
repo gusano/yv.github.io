@@ -1,0 +1,8 @@
+- name: MaxMSP
+  active: false
+- name: PureData
+  active: false
+- name: Processing
+  active: false
+- name: SuperCollider
+  active: 1

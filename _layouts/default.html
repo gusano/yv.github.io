@@ -1,54 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
   <head>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-4469493-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-4469493-2');
+    </script>
     <meta charset="utf-8">
-    <link rel="icon" type="image/png" href="{{ site.baseurl }}/img/favicon.ico?rdm=9sad87" />
-    <title>{{ page.title }}</title>
-    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta name="author" content="{{ site.author.name }}">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:title" content="Septentrion">
     <meta property="og:type" content="profile">
     <meta property="fb:app_id" content="273921263123147">
-    <meta property="og:url" content="http://s3pt3ntrion.com">
-    <meta property="og:description" content="Raw performance project involving psychoacoustics, dance, singing, clown work and improvisation. Developed in 2013 as research on the subconscious.">
-    <meta property="og:image" content="http://s3pt3ntrion.com/img/fb.png">
+    <meta property="og:url" content="http://yvanvolochine.com">
+    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:image" content="{% asset 'glitch.png' @path %}">
     <meta property="og:image:width" content="655">
     <meta property="og:image:height" content="376">
-
-    <!-- HTML5 shim, for IE6-8 support of HTML elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if !IE 7]>
-      <style type="text/css">
-        #global {display:table;height:100%}
-      </style>
-    <![endif]-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Raleway|Montserrat" rel="stylesheet">
-    <link rel="stylesheet" href="{{ site.baseurl }}/css/ekko-lightbox.min.css">
-    {% if page.custom_css %}
-      {% for stylesheet in page.custom_css %}
-        <link rel="stylesheet" href="{{ site.baseurl }}/css/{{ stylesheet }}.css?rdm=fbtgdvm4" media="screen" type="text/css">
-      {% endfor %}
-    {% else %}
-      <link href="{{ site.baseurl }}/css/main.css?rdm=7i341cu6" rel="stylesheet" type="text/css" media="all">
-    {% endif %}
-
-    <script src="{{ site.baseurl }}/js/jquery-3.2.1.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.min.js"></script>-->
-    <script src="{{ site.baseurl }}/js/ekko-lightbox.min.js"></script>
-    <script src="{{ site.baseurl }}/js/parallax-1.4.2.min.js"></script>
-    <script src="{{ site.baseurl }}/js/main.js?rdm=od60mnu5"></script>
-    <!-- fav and touch icons -->
-    <link rel="shortcut icon" href="/favicon.ico">
+    {% asset bootstrap-4.1.3.min.css %}
+    {% asset fontawesome-5.6.3.min.css %}
+    {% asset site.css %}
+    <link rel="icon" href="{% asset favicon.ico @path %}" type="image/png">
+    <link href="https://fonts.googleapis.com/css?family=Mate" rel="stylesheet">
+    <title>{{ page.title }}</title>
   </head>
 
-  <body data-spy="scroll" data-target="#navbar">
-  {% include header.md %}
-    {{ content }}
-  {% include footer.md %}
+  <body data-spy="scroll" data-target="#navbar" class="new">
+    <main id="main" class="container">
+      {{ content }}
+    </main>
   </body>
 </html>

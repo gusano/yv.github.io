@@ -1,7 +1,10 @@
 SHELL := /bin/bash
-BUNDLE = /home/gusi/.gem/ruby/2.4.0/bin/bundle
+BUNDLE = /home/gusi/gems/bin/bundle
 
 serve:
 	$(BUNDLE) exec jekyll serve
 
-.PHONY: serve
+build-prod:
+	JEKYLL_ENV=production $(BUNDLE) exec jekyll build
+
+.PHONY: serve build-prod

@@ -1,0 +1,20 @@
+# Where things are
+source:      .
+destination: ./_site
+plugins_dir: ./_plugins
+layouts_dir: ./_layouts
+data_dir:    ./_data
+collections: null
+baseurl: "/yv"
+
+# Handling Reading
+safe:         false
+include:      [".htaccess"]
+exclude:      ["vendor"]
+keep_files:   [".git"]
+encoding:     "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+stylus:
+  compress: true
+  path: css

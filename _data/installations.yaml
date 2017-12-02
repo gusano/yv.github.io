@@ -1,0 +1,34 @@
+- id: 1
+  name: 'Show Us Your Screens'
+  link: 'https://vimeo.com/20241649'
+  picture: 'livecoding.png'
+  year: 2014
+  data: 'One of my <a href="https://vimeo.com/12739443" target="_blank">performances</a> appears in this documentary about live coding'
+
+- id: 2
+  name: 'Between You And Me'
+  link: 'https://vimeo.com/37657649'
+  picture: 'youandme.png'
+  year: 2012
+  data: 'MaxMSP programmer for the great multi-sensorial installation by Anke Eckard'
+
+- id: 3
+  name: 'Ruido, Memoria Y Descomposición Social'
+  link: '#'
+  picture: 'museo.png'
+  year: 2010
+  data: 'AV performance for the National Museum of Bogotá (COL), canceled because of the political incorrectness of the project'
+
+- id: 4
+  name: 'HUM - die Kunst des Sammelns'
+  link: 'http://www.hum-die-kunst-des-sammelns.de/'
+  picture: 'hum.png'
+  year: 2008
+  data: 'MaxMSP programmer for dance performance in Natural History Museum of Berlin (DE)'
+
+- id: 5
+  name: "L' Horloge"
+  link: 'http://etiennechambaud.com'
+  picture: 'horloge.png'
+  year: 2007
+  data: 'MaxMSP programmer for a piece by Etienne Chambaud'

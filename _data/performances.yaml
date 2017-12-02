@@ -1,0 +1,11 @@
+- id: 'septentrion'
+  name: 'Septentrion'
+  picture: 'septentrion2.png'
+  link: 'http://s3pt3ntrion.com'
+  data: 'Dada performances involving psycho acoustics'
+
+- id: 'clown'
+  name: 'Clown'
+  picture: 'clown.png'
+  link: '#'
+  data: 'Clown teacher for adults, solo project in the process of writing'

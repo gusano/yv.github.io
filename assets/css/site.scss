@@ -1,0 +1,143 @@
+---
+---
+
+$black: #232323;
+
+@font-face {
+  font-family: 'FuturaBt';
+  src: asset_url('FuturaBT-Bold.eot');
+  src: asset_url('FuturaBT-Bold.eot?#iefix') format('embedded-opentype'),
+       asset_url('FuturaBT-Bold.woff') format('woff'),
+       asset_url('FuturaBT-Bold.ttf') format('truetype'),
+       asset_url('FuturaBT-Bold.svg') format('svg');
+}
+@font-face {
+  font-family: 'FuturaLtBt';
+  src: asset_url('FuturaLtBt.woff') format('woff');
+}
+@font-face {
+  font-family: 'f';
+  src: asset_url('f.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'fb';
+  src: asset_url('fb.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'fl';
+  src: asset_url('fl.woff2') format('woff2');
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+ol, ul {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font-family: 'FuturaLtBt', sans-serif;
+  //font-family: 'Mate', serif;
+}
+h1, h2, h3, h4, h5 {
+  font-family: 'fb', sans-serif;
+  text-transform: uppercase;
+}
+.strike {
+  text-decoration: line-through;
+}
+a {
+  color: $black;
+  text-shadow: -1px 0 1px #1ef2f1, 1px 0 1px #f6050a;
+  &:hover {
+    color: white;
+    text-decoration: none;
+  }
+}
+.sticky {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 2rem;
+  font-size: 1.2rem;
+  li {
+    display: inline-block;
+    a {
+      text-shadow: none;
+      padding: 0 .3rem;
+      &:hover {
+        color: $black;
+      }
+    }
+  }
+}
+main {
+  div.title {
+    text-align: center;
+    a.neon {
+      color: $black;
+      font-family: 'fl', sans-serif;
+      text-transform: uppercase;
+      font-size: 2.6rem;
+      text-shadow: -3px 0 1px rgb(30,242,241), 3px 0 1px rgb(246,5,10);
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+  ul.nav {
+    text-transform: uppercase;
+    li.nav-item {
+      a {
+        display: inline-block;
+        padding: .5rem .5rem 1rem .2rem;
+        color: $black;
+        &:hover {
+          color: white;
+        }
+        &.active {
+          text-decoration: line-through;
+          &:hover {
+            color: $black;
+            cursor: default;
+          }
+        }
+      }
+    }
+  }
+  section {
+    h4 {
+      padding: 2rem 0 1.4rem;
+    }
+    .row {
+      padding: 1rem 0;
+    }
+    &.music {
+      .past {
+        .info {
+          display: none;
+        }
+      }
+    }
+    &.releases {
+      .release, .image {
+        padding-bottom: 10px;
+      }
+    }
+  }
+}
+
+//@import 'media'

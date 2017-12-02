@@ -1,9 +1,20 @@
-<section id="menu">
-  <h2 class="hidden">menu</h2>
-  <ul>
-    <li><a href="{{ site.baseurl }}/"><span>ABOUT</span></a></li>
-    <li><a href="{{ site.baseurl }}/events/"><span>EVENTS</span></a></li>
-    <li><a href="https://www.facebook.com/pages/Septentrion/357546467715618"><span>MEDIA</span></a></li>
-    <li><a href="{{ site.baseurl }}/contact/"><span>CONTACT</span></a></li>
-  </ul>
-</section>
+<ul class="sticky">
+{% for item in site.data.sticky-items %}
+  <li><a href="{{ item.href }}"><i class="{{ item.icon }}"></i></a></li>
+{% endfor %}
+</ul>
+<ul class="nav justify-content-center">
+{% for menu in include.items %}
+  <li class="nav-item">
+    {% unless forloop.first %}
+      &nbsp;/&nbsp;
+    {% endunless %}
+    <a
+      href="{{ menu.link }}"
+      class="nav-link{% if include.selected == menu.name %} active{% endif %}"
+    >
+      {{ menu.name }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
