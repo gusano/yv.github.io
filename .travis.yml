@@ -1,5 +1,7 @@
 language: ruby
-install: bundle install
+install:
+  - yarn
+  - bundle install
 script: yarn lint
 deploy:
   provider: pages
