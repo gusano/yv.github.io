@@ -1,6 +1,6 @@
 language: ruby
 install: bundle install
-script: travis_terminate 0
+script: yarn lint
 deploy:
   provider: pages
   skip-cleanup: true
