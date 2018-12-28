@@ -1,0 +1,2 @@
+files:
+  include: 'assets/css/*.s+(a|c)ss'
