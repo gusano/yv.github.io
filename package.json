@@ -1,0 +1,16 @@
+{
+  "name": "Yvan-Volochine-website",
+  "version": "2.0.0",
+  "homepage": "http://yvanvolochine.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gusano/yv"
+  },
+  "license": "CC-BY-4.0",
+  "scripts": {
+    "lint": "sass-lint"
+  },
+  "devDependencies": {
+    "sass-lint": "^1.12.1"
+  }
+}
