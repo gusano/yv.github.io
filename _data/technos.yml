@@ -4,5 +4,9 @@
   active: false
 - name: Processing
   active: false
+- name: Arduino
+  active: 1
+- name: Raspberry Pi
+  active: 1
 - name: SuperCollider
   active: 1

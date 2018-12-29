@@ -10,8 +10,8 @@ group: index
   <p>
     Involved in new media art since 2005.<br />
     Workshops, live coding and art installations using
-    {% for techno in site.data.technos %}{% unless techno.active %}<span class="strike">{{ techno.name }}</span>{% else %}{{ techno.name }}{% endunless %}{% unless forloop.last %},&nbsp;{% endunless %}{% endfor %}.<br />
-    <a href="http://github.com/gusano" target="_blank">Github</a> – <a href="http://vimeo.com/yv" target="_blank">Vimeo</a>
+    {% for techno in site.data.technos %}{% unless techno.active %}<span class="strike">{{ techno.name }}</span>{% else %}{{ techno.name }}{% endunless %}{% unless forloop.last %}, {% endunless %}{% endfor %}.<br />
+    Check it out on <a href="http://github.com/gusano" target="_blank">Github</a> and <a href="http://vimeo.com/yv" target="_blank">Vimeo</a>.
   </p>
 </section>
 <section class="art-projects">
