@@ -10,7 +10,7 @@ build-prod:
 	JEKYLL_ENV=production $(BUNDLE) exec jekyll build -d dist
 
 clean:
-	rm -r dist/*
+	rm -rf dist/*
 
 deploy: clean build-prod do-deploy
 
