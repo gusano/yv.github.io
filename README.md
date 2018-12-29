@@ -1,6 +1,6 @@
 http://yvanvolochine.com
 
-This site uses `[Jekyll](https://jekyllrb.com)`.
+This site uses [`Jekyll`](https://jekyllrb.com).
 
 ### Run it locally:
 
