@@ -20,5 +20,6 @@ assets:
   compression: true
 
 exclude:
-   - Gemfile.lock
-   - vendor/bundle/
+  - Gemfile.lock
+  - vendor/bundle/
+  - node_modules
