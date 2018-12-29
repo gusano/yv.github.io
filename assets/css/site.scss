@@ -6,27 +6,27 @@ $grey: #e2e2e2;
 
 @font-face {
   font-family: 'FuturaBt';
-  src: asset_url('FuturaBT-Bold.eot');
-  src: asset_url('FuturaBT-Bold.eot?#iefix') format('embedded-opentype'),
-       asset_url('FuturaBT-Bold.woff') format('woff'),
-       asset_url('FuturaBT-Bold.ttf') format('truetype'),
-       asset_url('FuturaBT-Bold.svg') format('svg');
+  src: url('fonts/FuturaBT-Bold.eot');
+  src: url('fonts/FuturaBT-Bold.eot?#iefix') format('embedded-opentype'),
+       url('fonts/FuturaBT-Bold.woff') format('woff'),
+       url('fonts/FuturaBT-Bold.ttf') format('truetype'),
+       url('fonts/FuturaBT-Bold.svg') format('svg');
 }
 @font-face {
   font-family: 'FuturaLtBt';
-  src: asset_url('FuturaLtBt.woff') format('woff');
+  src: url('fonts/FuturaLtBt.woff') format('woff');
 }
 @font-face {
   font-family: 'f';
-  src: asset_url('f.woff2') format('woff2');
+  src: url('fonts/f.woff2') format('woff2');
 }
 @font-face {
   font-family: 'fb';
-  src: asset_url('fb.woff2') format('woff2');
+  src: url('fonts/fb.woff2') format('woff2');
 }
 @font-face {
   font-family: 'fl';
-  src: asset_url('fl.woff2') format('woff2');
+  src: url('fonts/fl.woff2') format('woff2');
 }
 
 html {
