@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5 {
 }
 a {
   color: $black;
-  text-shadow: -1px 0 1px #1ef2f1, 1px 0 1px #f6050a;
+  text-shadow: -1px 0 20px #1ef2f1, 1px 0 20px #f6050a;
   &:hover {
     color: white;
     text-decoration: none;
