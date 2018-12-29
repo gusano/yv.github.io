@@ -5,9 +5,6 @@ tagline: music
 group: index
 ---
 
-{% include title.md title="Yvan Volochine" css="neon" home=true %}
-{% include menu.md items=site.data.menu selected="Code" %}
-
 <section class="code">
   <p>
     Involved in new media art since 2005.<br />
@@ -21,7 +18,7 @@ group: index
     {% for project in site.data.installations %}
       <div class="row project-item">
         <div class="col-md-8">
-          <h2 class="project-name">{{ project.name }}</h2>
+          <h5>{{ project.name }}</h5>
           <p class="project-data">
             {{ project.data }} - {{ project.year }}
             {% if project.link != '#' %}
@@ -31,7 +28,7 @@ group: index
         </div>
         <div class="col-md-4 image">
           {% if project.picture %}
-            <img class="project" src="img/{{ project.picture }}" alt="{{ project.name }}" title="{{ project.name }}" />
+            {% asset "{{ project.picture }}" alt="{{ project.name }}" title="{{ project.name }}" %}
           {% endif %}
         </div>
       </div>

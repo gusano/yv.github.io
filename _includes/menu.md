@@ -1,8 +1,3 @@
-<ul class="sticky">
-{% for item in site.data.sticky-items %}
-  <li><a href="{{ item.href }}"><i class="{{ item.icon }}"></i></a></li>
-{% endfor %}
-</ul>
 <ul class="nav justify-content-center">
 {% for menu in include.items %}
   <li class="nav-item">

@@ -31,7 +31,12 @@
 
   <body data-spy="scroll" data-target="#navbar" class="new">
     <main id="main" class="container">
+
+      {% include title.md title="Yvan Volochine" css="neon" home=true %}
+      {% include sticky.md css="top" %}
+      {% include menu.md items=site.data.menu selected="Performance" %}
       {{ content }}
     </main>
+    {% include sticky.md css="bottom" %}
   </body>
 </html>

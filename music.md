@@ -5,9 +5,6 @@ tagline: music
 group: index
 ---
 
-{% include title.md title="Yvan Volochine" css="neon" home=true %}
-{% include menu.md items=site.data.menu selected="Music" %}
-
 <section class="projects">
   <h4>Projects</h4>
   {% for project in site.data.projects %}

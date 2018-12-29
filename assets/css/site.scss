@@ -2,6 +2,7 @@
 ---
 
 $black: #232323;
+$grey: #e2e2e2;
 
 @font-face {
   font-family: 'FuturaBt';
@@ -73,6 +74,9 @@ a {
   right: 0;
   padding: 2rem;
   font-size: 1.2rem;
+  &.bottom {
+    display: none;
+  }
   li {
     display: inline-block;
     a {
@@ -140,4 +144,16 @@ main {
   }
 }
 
-//@import 'media'
+@media (max-width: 767.98px) {
+  .sticky {
+    &.top {
+      display: none;
+    }
+    &.bottom {
+      display: block;
+      position: relative;
+      text-align: center;
+      border-top: 1px solid $grey;
+    }
+  }
+}

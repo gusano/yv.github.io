@@ -5,9 +5,6 @@ tagline: music
 group: index
 ---
 
-{% include title.md title="Yvan Volochine" css="neon" home=true %}
-{% include menu.md items=site.data.menu data=true %}
-
 <section>
   <p class="main">
     Multi artist involved in avant-guarde noise music, dada performances, theater clown, art installations, audio software and computer programming.
