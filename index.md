@@ -5,6 +5,7 @@ tagline: music
 group: index
 ---
 
+{% include menu.md items=site.data.menu %}
 <section>
   <p class="main">
     Multi artist involved in avant-guarde noise music, dada performances, theater clown, art installations, audio software and computer programming.

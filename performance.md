@@ -5,6 +5,7 @@ tagline: music
 group: index
 ---
 
+{% include menu.md items=site.data.menu selected="Performance" %}
 <section class="performance">
   <p class="main">
     Involved since 2013 in avant guarde performance art and clown.<br />

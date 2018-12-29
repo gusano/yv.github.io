@@ -5,6 +5,7 @@ tagline: music
 group: index
 ---
 
+{% include menu.md items=site.data.menu selected="Music" %}
 <section class="projects">
   <h4>Projects</h4>
   {% for project in site.data.projects %}

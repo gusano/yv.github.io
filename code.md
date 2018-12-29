@@ -5,6 +5,7 @@ tagline: music
 group: index
 ---
 
+{% include menu.md items=site.data.menu selected="Code" %}
 <section class="code">
   <p>
     Involved in new media art since 2005.<br />
