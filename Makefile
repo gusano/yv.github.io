@@ -5,6 +5,14 @@ serve:
 	$(BUNDLE) exec jekyll serve
 
 build-prod:
-	JEKYLL_ENV=production $(BUNDLE) exec jekyll build
+	JEKYLL_ENV=production $(BUNDLE) exec jekyll build -d dist
 
-.PHONY: serve build-prod
+deploy:
+	rm dist/* && build-prod
+	cd dist
+	git add --all
+	git commit -sm "Deploy"
+	git push origin gh-pages
+	cd ..
+
+.PHONY: serve build-prod deploy
