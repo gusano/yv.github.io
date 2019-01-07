@@ -15,4 +15,4 @@ clean:
 deploy: clean build-prod do-deploy
 
 do-deploy:
-	cd dist && git add --all && git commit -sm "Deploy" && git push origin +gh-pages && cd ..
+	cd dist && git add --all && git commit -sm "Deploy" && git push deploy +gh-pages && cd ..
