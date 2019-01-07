@@ -1,10 +1,9 @@
 #!/bin/bash
-while read oldrev newrev ref
-do
-    if [[ $ref = refs/heads/gh-pages ]];
-    then
-        echo "Deploying 'gh-pages' branch to production"
-        git --work-tree=$HOME/git/yv --git-dir=$HOME/git/yv.git checkout --force gh-pages
-        exit 0
-    fi
-done
+branch=$(git rev-parse --symbolic --abbrev-ref $1)
+echo Update pushed to branch $branch
+if [[ $branch = gh-pages ]];
+then
+    echo "Deploying 'gh-pages' branch to production"
+    git --work-tree=$HOME/git/yv --git-dir=$HOME/git/yv.git checkout --force gh-pages
+    exit 0
+fi
