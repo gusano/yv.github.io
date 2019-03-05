@@ -136,9 +136,9 @@ main {
     &.music {
       .past {
         opacity: 0.54;
-      }
-      .info {
-        display: none;
+        .info {
+          display: none;
+        }
       }
     }
     &.releases {
