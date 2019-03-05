@@ -135,9 +135,10 @@ main {
     }
     &.music {
       .past {
-        .info {
-          display: none;
-        }
+        opacity: 0.54;
+      }
+      .info {
+        display: none;
       }
     }
     &.releases {
