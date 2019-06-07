@@ -1,5 +1,5 @@
 SHELL := /bin/bash
-BUNDLE = /home/gusi/gems/bin/bundle
+BUNDLE = bundle
 
 .PHONY: serve build-prod clean deploy do-deploy
 
