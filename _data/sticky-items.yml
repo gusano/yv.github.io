@@ -1,8 +1,15 @@
+- href: "https://soundcloud.com/yvanvolochine"
+  title: Soundcloud
+  icon: fab fa-soundcloud
 - href: "https://github.com/gusano"
+  title: Github
   icon: fab fa-github
-- href: "https://instagram.com/s3pt3ntri0n"
+- href: "https://instagram.com/septentrion_"
+  title: Instagram
   icon: fab fa-instagram
 - href: "https://vimeo.com/yv"
+  title: Vimeo
   icon: fab fa-vimeo
 - href: "mailto: me@yvanvolochine.com"
+  title: Email
   icon: fas fa-at

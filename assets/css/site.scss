@@ -80,10 +80,26 @@ a {
   li {
     display: inline-block;
     a {
+      position: relative;
+      color: #5a5a5a;
       text-shadow: none;
       padding: 0 .3rem;
+      span {
+        display: none
+      }
       &:hover {
         color: $black;
+        span {
+          display: block;
+          position: absolute;
+          font-size: 13px;
+          top: 28px;
+          &.item-1 { left: -16px; }
+          &.item-2 { left: -7px; }
+          &.item-3 { left: -14px; }
+          &.item-4 { left: -4px; }
+          &.item-5 { left: 0px; }
+        }
       }
     }
   }
