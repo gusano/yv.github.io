@@ -16,18 +16,6 @@ $grey: #e2e2e2;
   font-family: 'FuturaLtBt';
   src: url('/assets/fonts/FuturaLtBt.woff') format('woff');
 }
-@font-face {
-  font-family: 'f';
-  src: url('/assets/fonts/f.woff2') format('woff2');
-}
-@font-face {
-  font-family: 'fb';
-  src: url('/assets/fonts/fb.woff2') format('woff2');
-}
-@font-face {
-  font-family: 'fl';
-  src: url('/assets/fonts/fl.woff2') format('woff2');
-}
 
 html {
   box-sizing: border-box;
@@ -54,7 +42,8 @@ body {
   //font-family: 'Mate', serif;
 }
 h1, h2, h3, h4, h5 {
-  font-family: 'fb', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
   text-transform: uppercase;
 }
 .strike {
@@ -110,9 +99,12 @@ main {
     text-align: center;
     a.neon {
       color: $black;
-      font-family: 'fl', sans-serif;
+      font-family: 'Open Sans', sans-serif;
       text-transform: uppercase;
+      transform: scaleY(0.96);
+      display: inline-block;
       font-size: 2.6rem;
+      font-weight: lighter;
       text-shadow: -3px 0 1px rgb(30,242,241), 3px 0 1px rgb(246,5,10);
       &:hover {
         text-decoration: none;
