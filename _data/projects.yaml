@@ -1,0 +1,41 @@
+- id: yvanvolochine
+  name: Yvan Volochine
+  link: 'https://yvanvolochine.bandcamp.com'
+  data: 'Solo project using guitar, microphone, self-made synths and pedals, from harsh noise to poetry'
+  picture: 'yv-sm.png'
+  active: 1
+
+- id: djdolor
+  name: Dj Dolor
+  link: '#'
+  data: 'Obscure and forgotten great music of the world (DJ)'
+  picture: 'dj-dolor.jpg'
+  active: 1
+
+- id: septentrion
+  name: Septentrion
+  link: https://instagram.com/septentrion_
+  data: 'Dada performances using psycho-acoustics and self-made sensors'
+  picture: 'septentrion.png'
+  active: 1
+
+- id: ultraspiesser
+  name: UltraSpießer
+  link: 'http://soundcloud.com/ultraspiesser'
+  data: 'Guitar: Ratbag / Drums: Sean Baxter|Steve Heather|Julian Bonequi / Voice: Yvan Volochine'
+  picture: 'ultra.png'
+  active: 1
+
+- id: elgusanorojo
+  name: El Gusano Rojo
+  link: 'http://hijos-de-puta.org'
+  data: 'Computer noise music, live coding'
+  picture: 'gusano.png'
+  active: 1
+
+- id: helaas
+  name: Helaas
+  link: 'http://soundcloud.com/helaasproject'
+  data: 'Benjamin Bex (guitar, voice), Leo Maury (cello, accordion), Ratbag (Guitar), Yvan Volochine (Computer)'
+  picture: 'helaas-live.jpg'
+  active: 0
