@@ -7,7 +7,7 @@
 
 - id: djdolor
   name: Dj Dolor
-  link: '#'
+  link: https://instagram.com/dj__dolor
   data: 'Obscure and forgotten great music of the world (DJ)'
   picture: 'dj-dolor.jpg'
   active: 1
@@ -28,7 +28,7 @@
 
 - id: elgusanorojo
   name: El Gusano Rojo
-  link: 'http://hijos-de-puta.org'
+  link: 'https://yvanvolochine.bandcamp.com'
   data: 'Computer noise music, live coding'
   picture: 'gusano.png'
   active: 1
