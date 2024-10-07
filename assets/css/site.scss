@@ -3,6 +3,7 @@
 
 $black: #232323;
 $grey: #e2e2e2;
+$red: #b30000;
 
 @font-face {
   font-family: 'FuturaBt';
@@ -38,11 +39,11 @@ img {
 }
 
 body {
-  font-family: 'FuturaLtBt', sans-serif;
-  //font-family: 'Mate', serif;
+  /* font-family: 'FuturaLtBt', sans-serif; */
+  /* font-family: "Inter", sans-serif; */
 }
 h1, h2, h3, h4, h5 {
-  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -50,11 +51,15 @@ h1, h2, h3, h4, h5 {
   text-decoration: line-through;
 }
 a {
-  color: $black;
-  text-shadow: -1px 0 20px #1ef2f1, 1px 0 20px #f6050a;
+  /* color: $black; */
+  /* text-shadow: -1px 0 20px #1ef2f1, 1px 0 20px #f6050a; */
+  color: $red;
+  font-weight: bold;
   &:hover {
-    color: white;
-    text-decoration: none;
+    /* color: white; */
+    /* text-decoration: none; */
+    text-decoration: line-through;
+    color: $red;
   }
 }
 .sticky {
@@ -117,9 +122,13 @@ main {
       a {
         display: inline-block;
         padding: .5rem .5rem 1rem .2rem;
-        color: $black;
+        /* color: $black; */
+        color: $red;
+        font-weight: bold;
         &:hover {
-          color: white;
+          /* color: white; */
+          color: $red;
+          text-decoration: line-through;
         }
         &.active {
           text-decoration: line-through;
@@ -142,6 +151,7 @@ main {
       margin: 2rem 0;
     }
     &.music {
+      font-size: small;
       .date, .location {
         font-weight: bold;
       }
