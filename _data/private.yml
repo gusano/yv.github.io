@@ -1,0 +1,26 @@
+- id: helaas
+  name: Helaas - Second To Last Plague
+  data: 'Yvan Volochine (electronics), Julian Percy (guitar), Benjamin Bex (guitar, voice), Leo Maury (cello, accordion)'
+  picture: 'helaas-tape.jpg'
+  tracks:
+    - source: 'helaas-sideA.mp3'
+      name: Side A
+  active: 1
+
+- id: ultraspiesser
+  name: Ultraspiesser
+  data: 'Yvan Volochine (electronics), Julian Percy (guitar), Steeve Heather (percussions)'
+  picture: 'ultraspiesser.jpg'
+  tracks:
+    - source: 'ultraspiesser-cheap-harvest.mp3'
+      name: Cheap Harvest
+  active: 1
+
+- id: Yvan Volochine
+  name: Yvan Volochine
+  data: Yvan Volochine (guitar)
+  picture: 'yv-live.jpg'
+  tracks:
+    - source: 'YvanVOLOCHINE-live-2024.mp3'
+      name: 'Improvisation at Sinestesia CDMX 2024'
+  active: 1

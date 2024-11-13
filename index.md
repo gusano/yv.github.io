@@ -8,8 +8,9 @@ group: index
 {% include menu.md items=site.data.menu %}
 <section>
   <p class="main">
-    Multi artist : noise music, psycho-acoustic performances, art installations, code.
-    <br />
+    Multi artist specialized in noise music, psycho-acoustic performances, art installations and code.<br />
+    Now focusing on the physicality of the (guitar) sound, playing as much with the PA as with his instrument.<br />
+    <br /><br />
     Located in
     {% for city in site.data.cities %}{% unless forloop.last %}<span class="strike">{{ city.name }}</span>,&nbsp;{% else %}{{ city.name }}{% endunless %}{% endfor %}.
   </p>
