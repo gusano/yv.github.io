@@ -40,12 +40,13 @@ img {
 
 body {
   /* font-family: 'FuturaLtBt', sans-serif; */
-  /* font-family: "Inter", sans-serif; */
+  font-family: ui-sans-serif,system-ui,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
 }
 h1, h2, h3, h4, h5 {
+  /* font-family: "Inter", sans-serif; */
   /* font-family: 'Open Sans', sans-serif; */
   font-weight: bold;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 .strike {
   text-decoration: line-through;
@@ -122,12 +123,10 @@ main {
       a {
         display: inline-block;
         padding: .5rem .5rem 1rem .2rem;
-        /* color: $black; */
-        color: $red;
+        color: $black;
         font-weight: bold;
         &:hover {
           /* color: white; */
-          color: $red;
           text-decoration: line-through;
         }
         &.active {
@@ -167,6 +166,21 @@ main {
     &.releases {
       .release, .image {
         padding-bottom: 10px;
+      }
+    }
+    &.projects {
+      .row {
+        line-height: 3;
+      }
+    }
+    &.art-projects {
+      .project-data {
+        line-height: 3;
+      }
+    }
+    &.performance {
+      .project-data {
+        line-height: 3;
       }
     }
   }

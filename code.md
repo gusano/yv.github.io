@@ -19,7 +19,7 @@ group: index
     {% for project in site.data.installations %}
       <div class="row project-item">
         <div class="col-md-8">
-          <h5>{{ project.name }}</h5>
+          <h4>{{ project.name }}</h4>
           <p class="project-data">
             {{ project.data }} - {{ project.year }}
             {% if project.link != '#' %}

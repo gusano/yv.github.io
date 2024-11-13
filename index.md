@@ -8,7 +8,7 @@ group: index
 {% include menu.md items=site.data.menu %}
 <section>
   <p class="main">
-    Multi artist involved in avant-guarde noise music, dada performances, theater clown, art installations, audio software and computer programming.
+    Multi artist : noise music, psycho-acoustic performances, art installations, code.
     <br />
     Located in
     {% for city in site.data.cities %}{% unless forloop.last %}<span class="strike">{{ city.name }}</span>,&nbsp;{% else %}{{ city.name }}{% endunless %}{% endfor %}.

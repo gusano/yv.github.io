@@ -7,7 +7,7 @@ group: index
 
 {% include menu.md items=site.data.menu selected="Music" %}
 <section class="releases">
-  <h4>Releases</h4>
+  <h3>Releases</h3>
   <div class="row">
     {% for release in site.data.releases %}
       <div class="col-4 col-md-2 image">
@@ -19,15 +19,15 @@ group: index
   </div>
 </section>
 <section class="projects">
-  <h4>Projects</h4>
+  <h3>Projects</h3>
   {% for project in site.data.projects %}
     <div class="row">
       <div class="col-md-8">
-      <h5 class="project-name">{{ project.name }}</h5>
+      <h4 class="project-name">{{ project.name }}</h4>
         <p class="project-data">
           {{ project.data }}
           {% if project.link != '#' %}
-            <br /><a href="{{ project.link }}" target="_blank">{{ project.link }}</a>
+            <p class="project-data"><a href="{{ project.link }}" target="_blank">{{ project.link }}</a></p>
           {% endif %}
         </p>
       </div>
