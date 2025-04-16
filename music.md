@@ -11,7 +11,7 @@ group: index
   <div class="row">
     {% for release in site.data.releases %}
       <div class="col-4 col-md-2 image">
-        <a href="{{ release.link }}" class="thumbnail" target="_blank">
+        <a href="{{ release.link }}" class="thumbnail" target="_blank" title="{{ release.artists }} - {{ release.title }} ({{ release.format }})">
           <img src="{{ '/assets/img/' | append: release.image | relative_url }}" alt="{{ release.ref }}" />
         </a>
       </div>
